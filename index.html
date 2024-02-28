@@ -1,0 +1,27 @@
+*/<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <div class="clock">
+ <img src="asset/alarm-clock image.webp"alt="">
+ <h1 id="Time_in_Html">00:00:00</h1>
+  <h2>Alarm at : <span id="setAlarmtime"> 
+  </span></h2>
+  <form>
+    <input type="number" placeholder="Hours"
+     id="hoursHtml">
+    <input type="number" placeholder="Minutes"
+     id="minuteHtml">
+  </form>
+  <button onclick="setAlarm()">set Alarm</button> 
+  <audio src="asset/Alarm.mp3" id="alarmSound"></audio>
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
